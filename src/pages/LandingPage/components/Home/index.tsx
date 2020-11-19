@@ -1,5 +1,5 @@
 import React from 'react';
-import boat from '../../../../assets/images/boat1.png';
+import boat from '../../../../assets/images/boat.png';
 import { Container, ImageContainer, TextContainer } from './styles';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
