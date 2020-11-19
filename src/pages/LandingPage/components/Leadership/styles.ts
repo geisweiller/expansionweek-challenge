@@ -5,7 +5,7 @@ export const Container = styled.div`
 
   position: relative;
 
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex; 
   flex-direction: column;
@@ -29,13 +29,6 @@ export const Container = styled.div`
     margin-bottom: 1rem;
   }
 
-  img.stairs {
-    position: absolute;
-    bottom: 0;
-   
-    width: 50%;
-
-  }
   
 `;
 
@@ -45,13 +38,34 @@ export const TextContainer = styled.div`
   flex-direction: column;
   align-items: center;
 
-  width: 50%;
+  width: 75%;
 
-  text-align: justify;
+  @media(min-width:1100px) {
+    width: 50%;
+  }
+
+  text-align: center;
+
+  label, p, strong, button {
+    margin-bottom: 2rem;
+  }
 
   label {
-    margin-bottom: 1rem;
+
+    font-weight: bold;
+    font-size: 1.4rem;
   }
+
+  p {
+    font-size: 1em;
+    font-style: italic;
+
+    border: .1rem solid #FFF;
+    padding: 1rem;
+
+    background: rgba(65,169,220, 0.7);
+  }
+  
 
   button {
 
