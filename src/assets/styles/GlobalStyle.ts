@@ -26,7 +26,7 @@ html, body, #root {
   flex-direction: column;
 }
 
-a {
+button {
   cursor: pointer;
 }
 
