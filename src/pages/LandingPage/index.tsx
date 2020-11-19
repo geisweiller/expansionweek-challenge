@@ -9,7 +9,6 @@ import { Container } from './styles';
 export default function LandingPage() {
   const scrollY = useScrollPosition(60);
   
-  console.log(scrollY);
 
   return (
     <Container>
