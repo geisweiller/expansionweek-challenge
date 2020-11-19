@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Options, Option, ImageContainer } from './styles'
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import ThumbDownIcon from '@material-ui/icons/ThumbDown';
-import mountain from '../../../../assets/images/mountain.png';
+import leader from '../../../../assets/images/leader.png';
 
 export default function Choice() {
 
@@ -41,7 +41,7 @@ export default function Choice() {
         </Option>
       </Options>
       <ImageContainer>
-        <img src={mountain} alt='mountain'></img>
+        <img src={leader} alt='mountain'></img>
       </ImageContainer>
       
     </Container>
